@@ -47,6 +47,7 @@ function tweet_this_short_url() {
 	return $url;
 }
 
+//redirect to twitter and generate the tweeter url here, store characters and special characters in an array
 function tweet_this_trim_title() {
 	$title = get_the_title();
 	$special = array('&#34;', '&#034;', '&#38;', '&#038;', '&#39;',
@@ -124,7 +125,7 @@ function tweet_this() {
 		if (pt_option('pt_gatortweets_icon') == '') $icon_file = 'pt-gatortweets.png';
 		else $icon_file = pt_option('pt_gatortweets_icon');
 	}
-	$icon = get_option('siteurl').'/wp-content/plugins/peep-this/icons/'.$icon_file;
+	$icon = get_option('siteurl').'/wp-content/plugins/suraj-first-plugin/icons/'.$icon_file;
 	$item = '<a class="tweet-this" href="'.$url.'" title="tweet now" rel="nofollow"><img class="nothumb" src="'.
 			$icon.'" alt="tweet now" border="0" /></a>';
 	return pt_display_limits($item);
@@ -161,7 +162,7 @@ function update_pt_options() {
 
 
 function pt_image_selection() {
-	$l = '/wp-content/plugins/peep-this/icons/pt-';
+	$l = '/wp-content/plugins/suraj-first-plugin/icons/pt-';
 	$checked = ' checked="checked"'; 
 	$u = get_option('siteurl');
 	$y = '.png" /></p><p><input type="radio" name="pt[pt_';
