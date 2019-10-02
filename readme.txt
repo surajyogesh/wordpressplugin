@@ -1,7 +1,7 @@
 === Test Plugin ===
 Contributors: SURAJ SHAH
 Tags: tag, tag, tag
-Donate link: http://example.com/
+Donate link: https://www.facebook.com/profile.php?id=100001291009191
 Requires at least: 4.0
 Tested up to: 4.8
 Requires PHP: 5.6
@@ -17,54 +17,26 @@ Long description of this great plugin. No characters limit, and you can use mark
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 markdown parsed.
 
-Ordered list:
+* nice Looking Button
+* directly connects to twitter account
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
+Link to [WordPress](http://wordpress.org/ "Coffee") .
 
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-
-Titles are optional, naturally.
-
-Asterisks for *emphasis*.
-
-Double it up  for **strong**.
 
 == Installation ==
-1. Upload "test-plugin.php" to the "/wp-content/plugins/" directory.
-1. Activate the plugin through the "Plugins" menu in WordPress.
-1. Place "do_action( 'plugin_name_hook' );" in your templates.
+
+1. Upload the `suraj-first-plugin` folder to `/wp-content/plugins/`.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. If you're using WordPress MU and want this plugin active for all blogs, move `suraj-first-plugin.php` to `/wp-content/mu-plugins/` at this point.
+4. Tweet me! icons should automatically appear on every post and page! Go to Settings > tweet This to change stuff.
 
 == Frequently Asked Questions ==
-= A question that someone might have =
-An answer to that question.
+= Is it live on wordpress? =
+No not for now but you can download from gitHub repository "https://github.com/surajyogesh/wordpressplugin" for free and easily.
 
-= What about foo bar? =
-Answer to foo bar dilemma.
-
-== Screenshots ==
-1. The screenshot description corresponds to screenshot-1.(png|jpg|jpeg|gif).
-2. The screenshot description corresponds to screenshot-2.(png|jpg|jpeg|gif).
-3. The screenshot description corresponds to screenshot-3.(png|jpg|jpeg|gif).
 
 == Changelog ==
-= 0.2 =
-* A change since the previous version.
-* Another change.
 
 = 0.1 =
 * Initial release.
 
-== Upgrade Notice ==
-= 0.2 =
-Upgrade notices describe the reason a user should upgrade
-
-= 0.1 =
-This version fixes a security related bug. Upgrade immediately.
